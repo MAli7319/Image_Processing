@@ -13,7 +13,7 @@ from scipy.ndimage import gaussian_filter, median_filter
 #### Enter this parameters and run ####
 ##### No need to do anything else #####
 ######################## PARAMETERS ########################
-input_img_folder_path = "../report/data/"     # Path to the input images
+input_img_folder_path = "data/"     # Path to the input images
 output_img_folder_path = ""  # Path for the output images will be saved
 FILTER = gaussian_filter                      # Set filter type
 SIGMA = 0.5                                   # Set sigma parameter to blur the input image
